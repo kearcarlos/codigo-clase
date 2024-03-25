@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #print {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: floralwhite;
+            border: 2px black solid;
+        }
+
+        .foto {
+            margin: 10px; 
+            border: 2px black solid;
+        }
+
+        .foto:hover {
+            height: 180px;
+            width: 180px;
+            border: 3px yellow solid;
+        }
+    </style>
+</head>
+<body>
+    <h3>Añade tu meme preferido</h3>
+    <form action="#">
+        <label for="img">Enlace de la foto</label>
+        <input type="text" name="img" id="img">
+    </form>
+    <button onclick="clicar()">Enviar</button>
+    <div id="print">
+
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
